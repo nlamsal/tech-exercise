@@ -1,0 +1,21 @@
+{
+  "name": "tech-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --testMatch=\"**/src/**/*.spec.ts\"",
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.3.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
